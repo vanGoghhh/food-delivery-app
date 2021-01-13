@@ -33,7 +33,6 @@ const LoginPage = () => {
 	const [loginUser, { loading }] = useMutation(LOGIN_USER, {
 		update(_, result) {
 			context.login(result.data.login);
-			console.log(result.data.login);
 			history.push("/home");
 		},
 		onError(err) {

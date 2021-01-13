@@ -38,7 +38,6 @@ const RegisterPage = ({ props }) => {
 		update(_, result) {
 			context.login(result.data.register);
 			history.push("/");
-			console.log(result);
 		},
 		onError(err) {
 			console.log("??ERR");

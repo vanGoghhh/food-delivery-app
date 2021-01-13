@@ -170,8 +170,6 @@ const resolvers = {
 
 			await user.save();
 
-			console.log(user.orders);
-
 			return user;
 		},
 	},

@@ -50,20 +50,7 @@ const OrderPopup = ({
 
 	const [updateUserOrder, { error }] = useMutation(UPDATE_USER_ORDER, {
 		variables: { name: resName, setMeals: resOrder, username: user.username },
-		update(proxy, result) {
-			// const data  = proxy.readQuery({
-			// 	query: FETCH_ORDERS_QUERY,
-			// 	variables: {
-			// 		username: user.username
-			// 	}
-			// })
-			// //console.log(result)
-			// console.log(data)
-			// console.log(result)
-			//  proxy.writeQuery({
-			//  	query: FETCH_ORDERS_QUERY,
-			//  	data: { getOrders: [result.data.updateUserOrder, ...data.getOrders] },
-			//  });
+		update(_, result) {
 			setResOrder([]);
 		},
 		refetchQueries: [{

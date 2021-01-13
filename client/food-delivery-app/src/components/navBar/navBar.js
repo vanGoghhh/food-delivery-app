@@ -11,7 +11,6 @@ const NavBar = () => {
 	const [currentDir, setCurrentDir] = useState("Login");
 
 	const handleItemClick = (e) => {
-		console.log(e.target);
 		setCurrentDir(e.target.name);
 	};
 	if (user) {
