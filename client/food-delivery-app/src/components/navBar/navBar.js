@@ -54,14 +54,12 @@ const NavBar = () => {
 				<NavLink to="/login" onClick={handleItemClick}>
 					<Menu.Item
 						name="Login"
-						active={currentDir === "Login"}
 						onClick={handleItemClick}
 					/>
 				</NavLink>
 				<NavLink to="/register">
 					<Menu.Item
 						name="Register"
-						active={currentDir === "Register"}
 						onClick={handleItemClick}
 					/>
 				</NavLink>
