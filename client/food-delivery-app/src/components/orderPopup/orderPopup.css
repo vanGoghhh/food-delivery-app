@@ -1,0 +1,30 @@
+.modal-body {
+    border: none;
+}
+.modal-header {
+    border: none
+}
+.restaurant-order-popup {
+    width: 50%;
+    height: 80%;
+}
+.restaurant-order-popup-header {
+    text-align: center;
+    font-size: 56px;
+    font-weight: bold;
+}
+.restaurant-order-popup-form {
+    padding-left: 6%;
+    padding-top: 3%;
+}
+.restaurant-order-popup-setmeals {
+    display: grid;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+}
+.restaurant-order-popup-button-container {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    align-self: start;
+    font-size: 20px;
+}

@@ -1,0 +1,66 @@
+* {
+	font-family: "Poppins";
+}
+.restaurant-card {
+	background-color: #ffffff;
+	width: 100%;
+	border-radius: 50px;
+	border: none;
+	margin: 0 auto;
+	position: relative;
+}
+.restaurant-card:after {
+	content: "";
+	display: block;
+    padding-bottom: 40%;
+    width: 50px;
+    height: 125px;
+    opacity: 20%;
+	transform: rotate(-45deg);
+}
+
+.restaurant-info {
+	width: 100%;
+	height: 100%;
+	background-color: wheat;
+	border: none;
+	border-radius: 20px;
+}
+.restaurant-info:hover{
+    background-color: whitesmoke;
+}
+.restaurant-body {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+}
+
+.restaurant-header {
+	box-sizing: border-box;
+	background-color: #00b7a8;
+	color: #fff;
+	border-radius: 18px;
+	font-size: 26px;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+.restaurant-header-name {
+	margin: auto;
+	line-height: 51px;
+	vertical-align: middle;
+}
+.restaurant-operation {
+	padding-top: 3%;
+	padding-left: 3%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	font-size: 14px;
+	font-weight: bold;
+	grid-row-gap: 10px;
+}

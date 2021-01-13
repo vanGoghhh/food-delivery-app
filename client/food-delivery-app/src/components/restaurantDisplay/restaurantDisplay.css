@@ -1,0 +1,45 @@
+.restaurants-container-page {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+	grid-gap: 0.9rem; /* To define the gap between rows/columns */
+	gap: 12px;
+	padding: 0.75rem;
+	color: #fff;
+}
+
+.restaurant-display {
+	padding-top: 20px;
+}
+
+.restaurant-card {
+	box-sizing: border-box;
+}
+.pagination {
+	padding-top: 40px;
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	cursor: pointer;
+}
+
+.pagination a {
+	padding: 15px;
+	border-radius: 10px;
+	border: 1px solid #00b7a8;
+	color: #00b7a8;
+}
+
+.pagination__link {
+	font-weight: bold;
+	color: wheat;
+}
+
+.pagination__link--active a {
+	color: #fff;
+	background: #00b7a8;
+}
+
+.pagination__link--disabled a {
+	color: rgb(198, 197, 202);
+	border: 1px solid rgb(198, 197, 202);
+}

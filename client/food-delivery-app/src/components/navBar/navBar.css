@@ -1,0 +1,27 @@
+.navbar-container {
+	display: flex;
+
+    background-color: white;
+	overflow: auto;
+    height: auto;
+    border-bottom: 4px solid;
+}
+.navbar-container-leftlinks {
+	flex: 1 1 200px;
+}
+.navbar-container-rightlinks {
+}
+.navbar-link {
+	display: inline-block;
+	text-align: center;
+	padding: 14px;
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+	font-size: 17px;
+    font-weight: bolder;
+}
+.navbar-link-active {
+    color: teal;
+    font-weight: 200px;
+
+}

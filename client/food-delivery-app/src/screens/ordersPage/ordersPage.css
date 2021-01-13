@@ -1,0 +1,6 @@
+.orders-display {
+    display: grid;
+    grid-template-rows: auto;
+    grid-row-gap: 1%;
+    padding: 2%;
+}

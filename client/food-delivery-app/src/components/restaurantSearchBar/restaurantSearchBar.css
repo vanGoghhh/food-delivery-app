@@ -1,0 +1,17 @@
+.restaurant-searchbar-container {
+	display: grid;
+    grid-template-rows: 1fr 2fr;
+    grid-row-gap: 26px;
+    padding: 3%;
+    
+    
+}
+.restaurant-searchbar-time-search {
+
+}
+.restaurant-searchbar-name-search {
+    
+}
+.restaurant-searchbar-searchcontent {
+ 
+}

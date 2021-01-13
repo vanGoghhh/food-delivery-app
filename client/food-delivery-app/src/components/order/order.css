@@ -1,0 +1,8 @@
+* {
+    font-family: "Poppins";
+}
+.order-card {
+    border: none;
+    background-color: whitesmoke;
+    padding: 2%;
+}

@@ -1,0 +1,12 @@
+.restaurant-confirm-order-popup-message {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.restaurant-confirm-order-info {
+    text-align: center;
+    padding: 3% 5% 5% 5%;
+}
+.restaurant-confirm-order-header{
+    padding-bottom: 3%;
+}
