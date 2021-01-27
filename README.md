@@ -3,11 +3,11 @@ A fullstack food delivery app developed for a technical assessment
 ## Starting the project ##
 
 ### Starting the server ###
-1. cd into server folder then run ***node index.js***
+1. cd into server folder(***cd server***) then run ***node index.js***
 2. server is now hosted on ***LocalHost:5000***
 
 ### Starting the client ###
-1. cd into client/food-delivery-app folder
+1. cd into client/food-delivery-app folder(***cd client/food-delivery-app***) 
 2. run ***npm install*** to install all dependencies
 3. run ***npm start***
 4. client is now hosted on ***LocalHost:3000***
