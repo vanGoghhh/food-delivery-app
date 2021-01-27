@@ -1,5 +1,5 @@
 # food-delivery-app
-A fullstack food delivery app developed for a technical assessment
+A fullstack food delivery web app
 ## Starting the project ##
 
 ### Starting the server ###
