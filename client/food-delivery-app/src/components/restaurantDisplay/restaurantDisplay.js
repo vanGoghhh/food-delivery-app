@@ -9,7 +9,7 @@ const RestaurantDisplay = ({ restaurantData, isLoading }) => {
 	const [currentPage, setCurrentPage] = useState(0);
 	const [data, setData] = useState(restaurantData);
 
-	const itemsPerPage = 50;
+	const itemsPerPage = 51;
 
 	const pageOffset = currentPage * itemsPerPage;
 
